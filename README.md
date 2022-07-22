@@ -1,5 +1,4 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/liuliange/notionlock/blob/main/README.md)
-[![pt](https://img.shields.io/badge/lang-pt-red.svg)](https://github.com/liuliange/notionlock/blob/main/README.pt-BR.md)
 
 # notion文本加密
 
