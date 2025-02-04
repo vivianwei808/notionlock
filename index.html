@@ -17,26 +17,26 @@
             <input class="form-control" name="password" id="password" type="password">
         </div>
         <div>
-            <label>文本</label>
+            <label>要加密/解密的文本</label>
             <textarea class="form-control" id="text" rows="10"></textarea>
         </div>
         <div class="form-check">
             <input class="form-check-input" type="radio" name="option" id="optionEncrypt">
             <label class="form-check-label" for="optionEncrypt">
-                加密
+                加密文本
             </label>
         </div>
         <div class="form-check">
             <input class="form-check-input" type="radio" name="option" id="optionDecrypt">
             <label class="form-check-label" for="optionDecrypt">
-                描述
+                解密文本
             </label>
         </div>
         <div>
-            <button id="go" type="button" class="btn btn-primary">删除文本</button>
+            <button id="go" type="button" class="btn btn-primary">生成文本</button>
             <button onclick="copy()" type="button" class="btn btn-success ml-4">复制到粘贴板</button>
         </div>
-        <h1 class="mt-1">结果</h1>
+        <h1 class="mt-1">结果:</h1>
         <div id="result" style='white-space:pre'>
             
         </div>
